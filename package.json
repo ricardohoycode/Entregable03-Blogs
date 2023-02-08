@@ -11,7 +11,8 @@
         "test": "mocha ./test/**/*.test.js",
         "prepare": "husky install",
         "husky:hook": "npx husky add .husky/pre-commit 'npm test' &&  git add .husky/pre-commit",
-        "init": "npm run prepare && npm run husky:hook"
+        "init": "npm run prepare && npm run husky:hook",
+        "seeder:categories": ""
     },
     "keywords": [],
     "author": "",
