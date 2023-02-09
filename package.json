@@ -12,7 +12,8 @@
         "prepare": "husky install",
         "husky:hook": "npx husky add .husky/pre-commit 'npm test' &&  git add .husky/pre-commit",
         "init": "npm run prepare && npm run husky:hook",
-        "seeder:categories": ""
+        "seeder:categories": "node ./src/seeders/categories.seeder.js",
+        "seeder:products": "node ./src/seeders/products.seeder.js"
     },
     "keywords": [],
     "author": "",
